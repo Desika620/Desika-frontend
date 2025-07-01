@@ -8,7 +8,7 @@ function Portfolio() {
   const [filter, setFilter] = useState('all');
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/projects')
+    fetch('https://desika-frontend.vercel.app/api/projects')
       .then(response => response.json())
       .then(data => {
         setProjects(data);
