@@ -26,7 +26,7 @@ function Portfolio() {
 
   if (loading) {
     return (
-      <div className="portfolio-loading">
+      <div className="portofolio-loading">
         <div className="container">
           <div className="loading-spinner"></div>
           <p>Loading projects...</p>
@@ -36,11 +36,11 @@ function Portfolio() {
   }
 
   return (
-    <div className="portfolio">
+    <div className="portofolio">
       <div className="container">
         <h1 className="section-title">My Portfolio</h1>
         
-        <div className="portfolio-filter">
+        <div className="portofolio-filter">
           <button 
             className={filter === 'all' ? 'active' : ''}
             onClick={() => setFilter('all')}
@@ -103,4 +103,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Portofolio;
