@@ -21,7 +21,7 @@ function Home() {
             <h1 className="hero-title">Halo, Saya <span className="highlight">Desika Cahya Azzahra</span></h1>
             <p className="hero-subtitle">Mahasiswa STMIK Widya Utama</p>
             <div className="hero-buttons">
-              <a href="/portfolio" className="btn">Lihat Karya Saya</a>
+              <a href="/portofolio" className="btn">Lihat Karya Saya</a>
               <a href="/contact" className="btn-outline">Hubungi Saya</a>
             </div>
           </div>
